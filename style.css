@@ -3,9 +3,9 @@
   ================== */
 
 :root {
-  --color-base: whiteSmoke;
-  --color-main: navy;
-  --color-pronounced: #E51A90;
+	--color-base: whiteSmoke;
+	--color-main: navy;
+	--color-pronounced: #E51A90;
 }
 
 
@@ -20,83 +20,83 @@
 
 body {
 	height: 100vh;
- 	display: flex;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	margin: auto;
 }
 
 a {
-  color: blue;
-  text-decoration: underline;
+	color: blue;
+	text-decoration: underline;
 }
 
 #compare-box {
-  width: 55%;
-  margin: auto;
-  box-shadow: 5px 10px 18px #888888;
-
+	width: 55%;
+	margin: auto;
+	box-shadow: 5px 10px 18px #888888;
 }
 
 header {
-  background-color: var(--color-pronounced);
-  color: white;
-  padding: 7.5px;
+	background-color: var(--color-pronounced);
+	color: white;
+	padding: 7.5px;
 }
 
 #form-body {
-  padding: 7.5px;
+	padding: 7.5px;
 }
+
 
 /*==================
       BUTTONS
   ================== */
 
 .buttons {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
 }
 
 .button {
-  background-color: var(--color-base);
-  color: var(--color-main);
-  margin: 5px auto;
-  padding: 10px;
-  height: auto;
-  width: 100%;
-  box-shadow: 2px 2px 1px #999;
-  font-weight: 550;
-  border: 1px solid lightgrey;
+	background-color: var(--color-base);
+	color: var(--color-main);
+	margin: 5px auto;
+	padding: 10px;
+	height: auto;
+	width: 100%;
+	box-shadow: 2px 2px 1px #999;
+	font-weight: 550;
+	border: 1px solid lightgrey;
 }
 
 .btn-title {
-  color: var(--color-main);
-    text-align: left;
+	color: var(--color-main);
+	text-align: left;
 }
+
 
 /*==================
       END TEXT
   ================== */
 
 .area-check {
-  font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 
-  /*==================
+
+/*==================
     MEDIA QUERIES
   ================== */
 
-
 @media only screen and (min-width: 768px) {
-  #compare-box {
-    width: 35%;
-  }
-  }
+	#compare-box {
+		width: 35%;
+	}
+}
 
-  @media only screen and (min-width: 1200px) {
-
-    #compare-box {
-      width: 25%;
-    }
+@media only screen and (min-width: 1200px) {
+	#compare-box {
+		width: 25%;
+	}
 }
